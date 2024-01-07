@@ -245,7 +245,35 @@ width: 276px;
 .new-year-img {
     margin: 43px 136px 0px ;
 }
-.sale-text {
-    
+.sale-text h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
 }
-
+.sale-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+.sale-text h6 {
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+/* width: 1068px; */
+height: 96px;
+align-items: center;
+padding-left: 250px;
+padding-right: 250px;
+}
