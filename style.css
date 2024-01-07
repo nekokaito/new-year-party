@@ -125,6 +125,55 @@ header {
   text-transform: uppercase;
   padding-left: 158px;
 }
-/* .midnight-party-img {
-    
-} */
+.midnight-party-img {
+  margin-top: 76px;
+  margin-right: 160px;
+  margin-bottom: 67px;
+  margin-left: 39px;
+}
+.event-date-div {
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 20px;
+  margin: 120px;
+  display: flex;
+  justify-content: center;
+}
+.red-text {
+  color: #f00;
+}
+
+.event-date-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+.btn-join {
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.event-date-text a {
+    align-items: center;
+    margin: 100px 200px 110px;
+}
+
