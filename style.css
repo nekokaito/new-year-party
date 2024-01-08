@@ -32,7 +32,6 @@ header {
   font-style: normal;
   font-weight: 900;
   line-height: 95px;
-  width: 632px;
   margin-left: 30px;
 }
 
@@ -40,6 +39,8 @@ header {
 
 .holiday-deal-section {
   margin-top: 120px;
+  display: flex;
+  flex-direction: column;
 }
 .holiday-deal-offer {
   display: block;
@@ -74,6 +75,8 @@ header {
   line-height: normal;
 }
 .holiday-deal-section img {
+    
+
   margin-top: 48px;
   margin-left: 399px;
   margin-right: 399px;
@@ -277,3 +280,77 @@ align-items: center;
 padding-left: 250px;
 padding-right: 250px;
 }
+.sale-img {
+    background-image: url('images/Rectangle2.png');
+    height: 700px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  margin: 120px 140px 0px 140px;
+  position: relative;
+}
+#ad-photo {
+  position: absolute;
+  left: 1075px;
+  top: 6px;
+  
+}
+#dis-photo {
+  position: absolute;
+  top: 55px;
+  left: 900px;
+}
+#gift-photo {
+  position: absolute;
+  top: -15px;
+  left: 100px;
+  width: 720px;
+  
+}
+.gallary-section {
+  margin: 120px 140px;
+  
+}
+.gallary-section h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.gallary-section h3 {
+  color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 16px;
+}
+.gallary-section p {
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.gallary-row1 {
+ 
+  margin-top: 48px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.gallary-row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
