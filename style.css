@@ -311,6 +311,13 @@ padding-right: 250px;
   margin: 120px 140px;
   
 }
+.gallary-section img{
+  transition: transform 0.3s ease-in-out;
+}
+.gallary-section img:hover {
+  transform: scale(1.1);
+}
+
 .gallary-section h1 {
   color: #070211;
   font-family: Merriweather;
@@ -430,4 +437,61 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-transform: capitalize;
+}
+/* Footer section styles */
+
+footer {
+  background-color: #070211;
+  margin-top: 120px;
+  height: 609px;
+
+}
+
+.footercol1 p, li {
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+
+}
+.footercol1 {
+  margin-top: 80px;
+  margin-right: 50px;
+}
+.footerrow1 {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-main {
+  padding: 120px 140px;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 48px 0 48px 0;
+}
+.footerrow1 a {
+
+  text-decoration: none;
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+#copyright {
+  margin-right: 500px;
+}
+#unsubscribe {
+  margin-left: 10px;
 }
