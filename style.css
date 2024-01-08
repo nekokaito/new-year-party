@@ -389,6 +389,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+.email-input input:focus {
+outline: none;
+}
 .newsletter-section h1 {
   color: #070211;
   text-align: center;
