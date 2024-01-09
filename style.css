@@ -303,8 +303,8 @@ header {
 }
 #ad-photo {
   position: absolute;
-  left: 1075px;
-  top: 6px;
+  left: 1178px;
+  top: -12px;
 }
 #dis-photo {
   position: absolute;
@@ -380,6 +380,7 @@ header {
   justify-content: center;
   align-items: center;
   margin: 50px 140px 120px;
+  padding-top: 120px;
 }
 .newsletter-section img {
   width: 150px;
@@ -388,6 +389,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 .email-input input:focus {
 outline: none;
